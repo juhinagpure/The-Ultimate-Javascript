@@ -17,9 +17,9 @@ console.log(heroes);
 //Loops - iterable(strings,objects,arrays)
 
 // for loop
-// for (let i = 0; i < heroes.length; i++) {
-//   console.log(heroes[i]);
-// }
+for (let i = 0; i < heroes.length; i++) {
+  console.log(heroes[i]);
+}
 
 // for-of loop
 for (let hero of heroes) {
@@ -58,34 +58,34 @@ fruits.push("orange");
 console.log(fruits); // Output: ['apple', 'banana', 'orange']
 
 // pop(): Removes the last element from an array.
-let fruits = ["apple", "banana", "orange"];
-let removedFruit = fruits.pop();
-console.log(removedFruit); // Output: 'orange'
-console.log(fruits); // Output: ['apple', 'banana']
+let fruitss = ["apple", "banana", "orange"];
+let removedFruits = fruits.pop();
+console.log(removedFruits); // Output: 'orange'
+console.log(fruitss); // Output: ['apple', 'banana']
 
 // shift(): Removes the first element from an array.
-let fruits = ["apple", "banana", "orange"];
+let fruitgroup = ["apple", "banana", "orange"];
 let removedFruit = fruits.shift();
 console.log(removedFruit); // Output: 'apple'
-console.log(fruits); // Output: ['banana', 'orange']
+console.log(fruitgroup); // Output: ['banana', 'orange']
 
 // unshift(): Adds one or more elements to the beginning of an array.
-let fruits = ["banana", "orange"];
+let fruitItem = ["banana", "orange"];
 fruits.unshift("apple");
-console.log(fruits); // Output: ['apple', 'banana', 'orange']
+console.log(fruitItem); // Output: ['apple', 'banana', 'orange']
 
 // splice(): Adds or removes elements from a specific index in an array.
-let fruits = ["apple", "banana", "orange"];
+let fruitsItem = ["apple", "banana", "orange"];
 fruits.splice(1, 1, "grape", "kiwi");
-console.log(fruits); // Output: ['apple', 'grape', 'kiwi', 'orange']
+console.log(fruitsItem); // Output: ['apple', 'grape', 'kiwi', 'orange']
 
 // slice(): Returns a shallow copy of a portion of an array.
-let fruits = ["apple", "banana", "orange", "grape"];
+let fruitsItems = ["apple", "banana", "orange", "grape"];
 let slicedFruits = fruits.slice(1, 3);
 console.log(slicedFruits); // Output: ['banana', 'orange']
 
 // concat(): Joins two or more arrays and returns a new array.
-let fruits = ["apple", "banana"];
+let fruitsgroups = ["apple", "banana"];
 let moreFruits = ["orange", "grape"];
-let combined = fruits.concat(moreFruits);
+let combined = fruitsgroups.concat(moreFruits);
 console.log(combined); // Output: ['apple', 'banana', 'orange', 'grape']
