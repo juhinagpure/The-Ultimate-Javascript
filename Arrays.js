@@ -89,3 +89,18 @@ let fruitsgroups = ["apple", "banana"];
 let moreFruits = ["orange", "grape"];
 let combined = fruitsgroups.concat(moreFruits);
 console.log(combined); // Output: ['apple', 'banana', 'orange', 'grape']
+
+let input = [1, "varsha", 2, "girish", 5, "juhi"];
+let number = [];
+let string = [];
+
+for (let item of input) {
+  if (typeof item === "number") {
+    number.push(item);
+  } else if (typeof item === "string") {
+    string.push(item);
+  }
+}
+
+console.log("number:", number);
+console.log("string:", string);
