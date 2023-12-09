@@ -32,6 +32,7 @@ for (const key in person) {
 }
 
 // Strings
+// Strings - Immutable
 
 // Creating Strings:
 // You can create a string using single quotes (') or double quotes (").
