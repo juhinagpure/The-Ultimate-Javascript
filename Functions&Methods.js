@@ -153,7 +153,7 @@ nums.forEach((num) => {
 
 // arr.map(callbackFnx(value, index, array));
 
-let newArr = arr.map((val) => {
+let newArr = nwarr.map((val) => {
   return val * 2;
 });
 
