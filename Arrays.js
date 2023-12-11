@@ -94,6 +94,7 @@ let input = [1, "varsha", 2, "girish", 5, "juhi"];
 let number = [];
 let string = [];
 
+// we need to extract no and string from input array into seperate array in javascript by using for of loop
 for (let item of input) {
   if (typeof item === "number") {
     number.push(item);
