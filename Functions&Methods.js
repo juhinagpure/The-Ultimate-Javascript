@@ -146,3 +146,82 @@ let nums = [2, 3, 4, 5, 6];
 nums.forEach((num) => {
   console.log(num * num); //num**2
 });
+
+// Some More Array Methods ->Important Array methods
+// Map-
+// creates a new array with the results of some operation.The value its callback returns are used to form new array
+
+// arr.map(callbackFnx(value, index, array));
+
+let newArr = arr.map((val) => {
+  return val * 2;
+});
+
+//
+let num = [67, 52, 39];
+num.map((val) => {
+  console.log(val);
+});
+
+// Filter Method
+// Creates a new array of elements that give true for a condition/filter.
+// Eg:all even elements
+
+let newArray = arr.filter((val) => {
+  return val % 2 === 0;
+});
+
+let arrays = [1, 2, 3, 4, 5, 6, 7];
+let evenArr = arrays.filter((val) => {
+  return val % 2 === 0;
+});
+console.log(evenArr);
+
+// Reduce method
+// performs some operations & reduces the array to a single value.it returns that single value.
+
+let Arr = [1, 2, 3, 4];
+
+const output = Arr.reduce((prev, curr) => {
+  return prev + curr;
+});
+console.log(output);
+
+// To print the largest No. in the array
+let number = [5, 6, 2, 1, 101, 3];
+const result = number.reduce((prev, curr) => {
+  return prev > curr ? prev : curr;
+});
+
+console.log(result);
+
+// Qs. We are given array of marks of students. Filter out of the marks of students that scored 90+.
+let marks = [97, 64, 32, 49, 99, 96, 86];
+
+let stuMarks = marks.filter((val) => {
+  return val > 90;
+});
+console.log(stuMarks);
+
+// Qs. Take a number n as input from user. Create an array of numbers from 1 to n.
+// Use the reduce method to calculate sum of all numbers in the array.
+// Use the reduce method to calculate product of all numbers in the array
+
+let n = prompt("Enter a number:");
+
+let userArr = [];
+
+for (let i = 1; i <= n; i++) {
+  userArr[i - 1] = i; //1(0),2(1),3(2),4(3)
+}
+console.log(userArr);
+
+let Sum = userArr.reduce((res, curr) => {
+  return res + curr;
+});
+console.log("Sum =", Sum);
+
+let factorial = userArr.reduce((res, curr) => {
+  return res * curr;
+});
+console.log("factorial=", factorial);
