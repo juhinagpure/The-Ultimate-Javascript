@@ -1,77 +1,77 @@
-// // Functions in JS
-// // Block of code that performs a specific TextTrackList,can be invoked whenever needed
-// // function params -> like local variables -> block scope
+// Functions in JS
+// Block of code that performs a specific TextTrackList,can be invoked whenever needed
+// function params -> like local variables -> block scope
 
-// // Function Definition
-// function functionName() {
-//   //do some work
-// }
+// Function Definition
+function functionName() {
+  //do some work
+}
 
-// function functionName(param1, param2) {
-//   //do some work
-// }
+function functionName(param1, param2) {
+  //do some work
+}
 
-// // Function Call
-// functionName();
+// Function Call
+functionName();
 
-// //
-// function myFunctions() {
-//   console.log("Welcome to JavaScript");
-//   console.log("We are learning JS:)");
-// }
-// myFunctions();
+//
+function myFunctions() {
+  console.log("Welcome to JavaScript");
+  console.log("We are learning JS:)");
+}
+myFunctions();
 
-// function myFunction(msg) {
-//   //parameter -> input
-//   console.log(msg);
-// }
-// myFunction("I love JS");
+function myFunction(msg) {
+  //parameter -> input
+  console.log(msg);
+}
+myFunction("I love JS");
 
-// //Function -> 2numbers , sum
+//Function -> 2numbers , sum
 
-// function sum(x, y) {
-//   //local variables->scope
-//   s = x + y;
-//   return s;
-// }
-// let val = sum(3, 4);
-// console.log(val);
+function sum(x, y) {
+  //local variables->scope
+  s = x + y;
+  return s;
+}
+let val = sum(3, 4);
+console.log(val);
 
-// //
-// function add(a, b, c) {
-//   s = a + b + c;
-//   return s;
-// }
-// let value = add(2, 3, 5);
-// console.log(value);
+//
+function add(a, b, c) {
+  s = a + b + c;
+  return s;
+}
+let value = add(2, 3, 5);
+console.log(value);
 
-// // Arrow Functions
-// //Compact way of writing a function
+// Arrow Functions
+//Compact way of writing a function
 
-// const functionNames = (param1, param2) => {
-//   //do some work
-// };
+const functionNames = (param1, param2) => {
+  //do some work
+};
 
-// //Sum Function
-// function sum(a, b) {
-//   return a + b;
-// }
+//Sum Function
+function sum(a, b) {
+  return a + b;
+}
 
-// const arrrowSum = (a, b) => {
-//   console.log(a + b);
-// };
+const arrrowSum = (a, b) => {
+  console.log(a + b);
+};
 
-// //Multiplication Function
-// function mul(a, b) {
-//   return a * b;
-// }
-// const arrowMul = (a, b) => {
-//   console.log(a * b);
-// };
+//Multiplication Function
+function mul(a, b) {
+  return a * b;
+}
+const arrowMul = (a, b) => {
+  console.log(a * b);
+};
 
-// const printHello = () => {
-//   console.log("HELLO");
-// };
+const printHello = () => {
+  console.log("HELLO");
+};
 
 // Q.s Create a function using the “function” keyword that takes a String as an argument & returns the number of vowels in the string
 function countVowels(str) {
