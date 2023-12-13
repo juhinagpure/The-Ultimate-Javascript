@@ -153,7 +153,7 @@ nums.forEach((num) => {
 
 // arr.map(callbackFnx(value, index, array));
 
-let newArr = nwarr.map((val) => {
+let newArr = arr.map((val) => {
   return val * 2;
 });
 
@@ -178,7 +178,7 @@ let evenArr = arrays.filter((val) => {
 console.log(evenArr);
 
 // Reduce method
-// performs some operations & reduces the array to a single value.it returns that single value.
+// performs some operations & reduces the array to a single value, it returns that single value.
 
 let Arr = [1, 2, 3, 4];
 
