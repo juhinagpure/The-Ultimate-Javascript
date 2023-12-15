@@ -1,0 +1,21 @@
+/* #heading1 {
+  color: blue;
+  background-color: yellow;
+} */
+/* body {
+  background: lightcoral;
+} */
+/* button {
+  background: blue;
+  color: white;
+}
+.heading {
+  color: purple;
+} */
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 1px;
+  background-color: aquamarine;
+}
