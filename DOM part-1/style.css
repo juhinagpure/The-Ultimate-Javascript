@@ -1,17 +1,17 @@
-/* #heading1 {
+#heading1 {
   color: blue;
   background-color: yellow;
-} */
-/* body {
-  background: lightcoral;
-} */
-/* button {
+}
+*/ body {
+  background: plum;
+}
+button {
   background: blue;
   color: white;
 }
 .heading {
   color: purple;
-} */
+}
 .box {
   height: 100px;
   width: 100px;

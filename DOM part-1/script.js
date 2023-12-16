@@ -35,8 +35,8 @@ console.log(paragraph);
 let Elements = document.querySelector("button"); //1st element
 console.log(Elements);
 
-//document.querySelectorAll("myId/myClass/tag")
-//returns a NodeList
+document.querySelectorAll("myId/myClass/tag");
+// returns a NodeList
 
 let AllElements = document.querySelectorAll("p"); //all elements
 console.log(AllElements);
@@ -56,9 +56,9 @@ console.log(div);
 let h2 = document.querySelector("h2");
 console.dir(h2.innerText);
 
-h2.innerText = h2.innerText + "From Developers"; //concat
+h2.innerText = h2.innerText + " From Developers "; //concat
 
-//Q.s 2.Create 3 divs with common class name - "box".Access them & add some unique text to each of them.
+// //Q.s 2.Create 3 divs with common class name - "box".Access them & add some unique text to each of them.
 let divs = document.querySelectorAll(".box");
 let idx;
 for (div of divs) {
