@@ -9,8 +9,8 @@ console.log(numbers.length); //property
 let heroes = ["ironman", "thor", "hulk", "shaktiman", "spiderman"];
 console.log(heroes);
 
-// array javascript ke andar ek object hota hai
-// particular index pe jake hum apne value change kr skte hai
+// array javascript ke andar ek object hota hai.
+// particular index pe jake hum apne value change kr skte hai.
 
 //Looping over an Array
 // Print all elments of an array.
