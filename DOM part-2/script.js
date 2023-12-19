@@ -48,7 +48,7 @@ document.querySelector("body").prepend(newHeading);
 // DELETE ELEMENT
 // 1.node.remove() remove the node
 
-let paragr = document.querySelector("p");
+let paragraphh = document.querySelector("p");
 para.remove();
 
 // PRACTICE
