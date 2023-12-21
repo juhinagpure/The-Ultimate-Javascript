@@ -105,3 +105,4 @@ for (let item of input) {
 
 console.log("number:", number);
 console.log("string:", string);
+console.log("string", string);
