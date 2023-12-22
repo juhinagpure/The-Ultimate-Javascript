@@ -90,7 +90,7 @@ let moreFruits = ["orange", "grape"];
 let combined = fruitsgroups.concat(moreFruits);
 console.log(combined); // Output: ['apple', 'banana', 'orange', 'grape']
 
-let input = [1, "varsha", 2, "girish", 5, "juhi"];
+let input = [1, "varsha", 2, "Diya", 5, "juhi"];
 let number = [];
 let string = [];
 
