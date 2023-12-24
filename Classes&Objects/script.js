@@ -109,4 +109,4 @@ class User {
   }
 }
 let student1 = new User("juhi", "abc@gmail.com");
-let student2 = new User("diya", "diya@gmail.com");
+let student2 = new User("bulbul", "ijk@gmail.com");
